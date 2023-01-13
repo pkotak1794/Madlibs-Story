@@ -21,9 +21,9 @@ def madlibs():
 madlibs() # function call 
 
 print("Would you like to play again? (y/n): ")
-input("y/n: ")
+answer = input("y/n: ")
 
-if "y":
+if answer == "y":
     madlibs() # runs madlibs function from the beginning
 else:
     exit() # exits program 
